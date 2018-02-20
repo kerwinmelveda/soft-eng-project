@@ -1,0 +1,4 @@
+-email validation
+-payment
+-pop-up errors
+-ads

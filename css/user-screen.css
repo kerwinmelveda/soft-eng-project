@@ -1,0 +1,152 @@
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+}
+
+h2, {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.but {
+  height: 50px;
+  width: 150px;
+}
+
+#wrapper {
+  width: 1024px;
+  height: 768px;
+  background-color: #000;
+  margin-left: 50px;
+}
+
+#banner {
+  width: 1024px;
+  height: 50px;
+  background-color: #ff6633;
+  margin-top: 20px;
+}
+
+#menuTop {
+  width: 1024px;
+  height: 50px;
+  background-color: #FC0;
+  margin-top: 20px;
+}
+
+.btn-lg {
+  background-color: #FC0;
+  color: #000;
+}
+
+.mainWrap1 .wrap {
+  background-color: #ff0000;
+  height: 50px;
+  width: 150px;
+  margin-right: 50px;
+  border: 1px solid #000;
+  float: left;
+}
+
+.mainWrap2 .wrap {
+  background-color: #ff0000;
+  height: 50px;
+  width: 150px;
+  margin-right: 50px;
+  border: 1px solid #000;
+  float: left;
+}
+
+.navbar { 
+  margin-bottom: 0;
+  background-color: #1E90FF;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color: #fff !important;
+}
+
+.form-group {
+	margin: auto;
+}
+
+.container {
+	padding: 20px;
+}
+
+.slideanim {
+  visibility:hidden;
+}
+
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;	
+  animation-duration: 1s;	
+  -webkit-animation-duration: 1s;
+  visibility: visible;			
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }	
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+  text-align: center;
+  margin: 25px 0;
+  }
+
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 400px;
+  }
+}s
